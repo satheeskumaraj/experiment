@@ -26,11 +26,11 @@ How to run the terraform code?
 
 1. First clone this repo into your local
 2. Navigate intoexperiment/exercise1/terraform folder.
-3. First you need to initialized the terraform module by using the below command 
-    terraform init
+3. First you need to initialized the terraform module by using the following command 
+    "terraform init"
 4. If you what to view the outcome of this code, you need to run the following commmand 
-    terraform plan
+    "terraform plan"
 5. Creating the VM, Please run the below command. 
-    terraform apply auto-approve 
+    "terraform apply auto-approve "
     
 ** This will ask to user to provide the subscription_id and tenant_id. Since it's secure one that's why i'm getting from user. May be we have multiple motthod for apply the terraform. But i'm using this method.
